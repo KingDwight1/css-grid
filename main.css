@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.25fr;
+  background: #ffffff;
+  column-gap: 2em;
+  row-gap: 1em;
+}
+#TodayWeather {
+  background: #eeeeee;
+  text-align: center;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+#Day1Weather {
+  background: #dddddd;
+  text-align: center;
+}
+
+#Day2Weather {
+  background: #cccccc;
+  text-align: center;
+}
+
+#Day3Weather {
+  background: #bbbbbb;
+  text-align: center;
+}
+
+#Day4Weather {
+  background: #aaaaaa;
+  text-align: center;
+}
+
+#Footer {
+  background: #aabbcc;
+  text-align: left;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
